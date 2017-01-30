@@ -112,6 +112,8 @@ summary(totalStepsImputed$sumsteps, digits = 8)
     ##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
     ##    41.00  9819.00 10766.19 10766.19 12811.00 21194.00
 
+Imputing the values resulted in a an increase of approximately 10 steps in the mean and 11 steps in the median comprared to the raw data. This is, relatively, a small increase accounting for a positive difference of about a .1%.
+
 Difference in activty: Weekdays vs Weekends
 
 ``` r

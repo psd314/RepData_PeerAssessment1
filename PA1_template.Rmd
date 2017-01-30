@@ -105,6 +105,9 @@ ggplot(totalStepsImputed1, aes(sumsteps)) + geom_histogram(bins=30, color="black
 summary(totalStepsImputed$sumsteps, digits = 8)
 ```
 
+Imputing the values resulted in a an increase of approximately 10 steps in the mean and 11 steps in the median
+comprared to the raw data.  This is, relatively, a small increase accounting for a positive difference of about a .1%.
+
 Difference in activty: Weekdays vs Weekends
 
 ```{r}
