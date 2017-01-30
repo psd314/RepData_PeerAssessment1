@@ -11,7 +11,7 @@ rawData <- read.csv("activity.csv")
 compCases <- rawData[complete.cases(rawData),]
 ```
 
-Mean and median values for the total number of steps taken per day.
+### Mean and median values for the total number of steps taken per day.
 
 ``` r
 #sum total number of steps by date
@@ -114,7 +114,7 @@ summary(totalStepsImputed$sumsteps, digits = 8)
 
 Imputing the values resulted in a an increase of approximately 10 steps in the mean and 11 steps in the median comprared to the raw data. This is, relatively, a small increase accounting for a positive difference of about a .1%.
 
-Difference in activty: Weekdays vs Weekends
+### Difference in activty: Weekdays vs Weekends
 
 ``` r
 dayTest <- function (day) {
